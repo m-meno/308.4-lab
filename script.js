@@ -38,6 +38,35 @@ for(let i = 0; i < str.length; i++){
 }
 
 
+let col1 = [`ID`, `42`, `57`, `63`, `98`]
+let col2 = [`Name`, `Bruce`, `Bob`, `Blaine`, `Bill`]
+let col3 = [`Occupation`, `Knight`, `Fry Cook`, `Quiz Master`, `Doctor's Assistant`]
+let col4 = [`Age`, `41`, `19`, `58`, `26`]
+
+
+let i = 0
+
+for (let i = 0; i < col1.length; i++){
+    let col1Str = col1[i]+= ` `
+    let col2Str = col2[i] += ` `
+    let col3Str = col3[i] += ` `
+    let col4Str = col4[i] += ` `
+    console.log(col1Str, col2Str, col3Str, col4Str)
+}
+//Attempt at part .2 (I know it is wrong)
+
+
+row1 = [`ID`, `Name`, `Occupation`, `Age`]
+row2 = ["42", "Bruce", "Knight", "41"]
+row3 = ["57", "Bob", "Fry Cook", "19"]
+row4 = ["63", "Blaine", "Quiz Master", "58"]
+row5 = ["98", "Bill", "Doctor’s Assistant", "26"]
+
+
+
+const parentArray = [row1, row2, row3, row4, row5]
+console.log(parentArray)
+
 //Part 3.
 
 // [["ID", "Name", "Occupation", "Age"],
